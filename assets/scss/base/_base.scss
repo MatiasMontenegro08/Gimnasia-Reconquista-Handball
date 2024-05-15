@@ -15,5 +15,22 @@ body{
     "header"
     "main"
     "section"
-    "footer";
+    "footer"
+    "derechos";
+}
+
+.header{
+    grid-area: header;
+}
+.main{
+    grid-area: main;
+}
+.section{
+    grid-area: section;
+}
+.footer{
+    grid-area: footer;
+}
+.derechos{
+    grid-area: derechos;
 }

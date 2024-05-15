@@ -5,15 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/main.css">
     <title>Gimnasia Handball Reconquista</title>
 </head>
 
 <body class="grid__container">
     <header class="header">
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <nav class="navbar navbar-expand-sm">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./assets/img/Escudo Gimnasia Handball Reconquista.svg" alt="Escudo gimnasia"></a>
+                <a class="navbar-brand" href="#"><img src="./assets/img/Escudo Gimnasia Handball Reconquista.svg"
+                        alt="Escudo gimnasia"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -35,46 +37,58 @@
         </nav>
     </header>
     <!-- Main -->
-    <main class="main">
-        <h1>Gimnasia Handball Reconquista</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At numquam, optio vero saepe molestias in veritatis
-            possimus eum dolorem iure rerum odit expedita quasi, enim iste asperiores. Rerum, cum quibusdam.</p>
+    <main>
+        <div class="main">
+            <h1>Gimnasia Handball Reconquista</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At numquam, optio vero saepe molestias in
+                veritatis
+                possimus eum dolorem iure rerum odit expedita quasi, enim iste asperiores. Rerum, cum quibusdam.</p>
+        </div>
     </main>
     <!-- Categorías -->
     <section class="section">
         <h2>Categorías</h2>
         <div class="container__cards">
             <div class="card">
-                <figure><img src="#" alt="Masculino"></figure>
-                <h3>Masculino</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ipsam obcaecati molestias a rerum
-                    nulla.</p>
-                <a href="#">Ver Info</a>
+                <figure><img src="./assets/img/8.png" alt="Masculino"></figure>
+                <div class="contenido">
+                    <h3>Masculino</h3>
+                    <p>Lunes y miércoles 21hs. a 22:30hs. Cic barrio Don Juan.</p>
+                    <a href="#">Ver Info</a>
+                </div>
             </div>
             <div class="card">
-                <figure><img src="#" alt="Masculino"></figure>
-                <h3>Femenino</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ipsam obcaecati molestias a rerum
-                    nulla.</p>
-                <a href="#">Ver Info</a>
+                <figure><img src="./assets/img/7.png" alt="Femenino"></figure>
+                <div class="contenido">
+                    <h3>Femenino</h3>
+                    <p>Martes y jueves 21hs. a 22:30hs. Cic barrio Lanceros.</p>
+                    <a href="#">Ver Info</a>
+                </div>
             </div>
         </div>
     </section>
     <!-- Footer -->
     <footer class="footer">
         <div class="redes">
+            <h3>CONTACTANOS</h3>
             <!-- iconos de las redes sociales -->
+            <i class="fa-brands fa-square-instagram"><a href="#"></a></i>
+            <i class="fa-brands fa-square-whatsapp"><a href="#"></a></i>
         </div>
-        <div class="ubicacion playon1">
+        <div class="ubicacion">
             <!-- mapa del playon Barrio Lanceros -->
+            <h3>Playon Barrio Lanceros</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6968.659847950243!2d-59.66991832460358!3d-29.15494849968901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x944eb06d459ede43%3A0x8485dcbfb156c6f0!2sCIC%20Barrio%20Lanceros%20del%20Sauce!5e0!3m2!1ses-419!2sar!4v1715632911993!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="ubicacion playon2">
+        <div class="ubicacion">
             <!-- mapa del playon Barrio Don Juan -->
-        </div>
-        <div class="derechos">
-            <p>&copy;Derechos reservados Montenegro Matias</p>
+            <h3>Playon Barrio Don Juan</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d732.4961454561077!2d-59.67201408536119!3d-29.154105806890275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1715633031274!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </footer>
+    <div class="derechos">
+        <p>&copy;Derechos reservados Montenegro Matias</p>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

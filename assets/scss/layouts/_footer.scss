@@ -1,0 +1,44 @@
+.footer{
+    width: 100%;
+    background-color:$color-secundario;
+    color: $color-primario;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .redes{
+        font-size: 3rem;
+    }
+
+    .ubicacion{
+        width: 90%;
+
+        iframe{
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    h3{
+        margin-top: 20px;
+    }
+}
+
+.derechos{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: $color-terciario;
+    padding-left: 10px;
+
+    p{
+        margin-top: auto;
+        color: $color-secundario;
+        font-size: 1rem;
+    }
+}
+

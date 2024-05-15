@@ -1,0 +1,17 @@
+.main{
+    width: 100%;
+    background-image: url('../../../assets/img/fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: $color-terciario;
+    h1{
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+}

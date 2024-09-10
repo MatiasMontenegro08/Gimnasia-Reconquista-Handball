@@ -36,10 +36,13 @@
 .container-direcciones{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .direccion{
     display: flex;
+    justify-content: left;
+    align-items: center;
     gap: 5px;
     a{
         &:hover{

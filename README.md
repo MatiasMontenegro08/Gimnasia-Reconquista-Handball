@@ -20,6 +20,7 @@ Gimnasia Handball Reconquista es una SPA (Single Page Application) diseñada par
     <li>Bootstrap: Framework CSS para un diseño responsivo y moderno.</li>
 </ul>
 
+
 <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/React-Dark.svg" width="30">
 <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Firebase-Dark.svg" width="30">
 <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Vercel-Dark.svg" width="30">

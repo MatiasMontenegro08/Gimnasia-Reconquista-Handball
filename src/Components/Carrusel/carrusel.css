@@ -1,7 +1,6 @@
 
 .section-ultimos-partidos{
     text-align: center;
-    padding: 10px;
 }
 
 .container-lista{
@@ -14,7 +13,6 @@
 
 .container-partido{
     width: 100%;
-    padding: 10px;
     background-color: #00a1e4ff;
     border-radius: 15px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.288);
@@ -27,6 +25,8 @@
 
 .partido-titulo{
     font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 2px;
 }
 
 .container-partido-body{
@@ -34,7 +34,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-weight: bold;
     font-size: 1.5rem;
     gap: 10px;
     padding: 10px;

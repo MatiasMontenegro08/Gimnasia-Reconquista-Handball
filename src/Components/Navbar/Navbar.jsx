@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-sm">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/"><img src={logoGimnasia} width={90} alt="Escudo Gimnasia Handball" /></Link>
+                <Link className="navbar-brand" to="/"><img src={logoGimnasia} width={50} alt="Escudo Gimnasia Handball" /></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span className="navbar-toggler-icon"></span>
                 </button>

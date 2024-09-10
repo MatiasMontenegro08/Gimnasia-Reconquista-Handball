@@ -7,13 +7,13 @@ const resultadosPartidos = [
             id: 101,
             nombre: "Equipo A",
             goles: 22,
-            img: "/public/img/logos/EscudoGimnasiaHandballReconquista.svg",
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
         teamB: {
             id: 102,
             nombre: "Equipo B",
             goles: 18,
-            img: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg",
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
     },
     {
@@ -24,13 +24,13 @@ const resultadosPartidos = [
             id: 103,
             nombre: "Equipo C",
             goles: 25,
-            img: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg",
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
         teamB: {
             id: 104,
             nombre: "Equipo D",
             goles: 20,
-            img: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg",
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
     },
     {
@@ -41,13 +41,13 @@ const resultadosPartidos = [
             id: 101,
             nombre: "Equipo A",
             goles: 21,
-            img: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg",
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
         teamB: {
             id: 103,
             nombre: "Equipo C",
             goles: 23,
-            img: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg",
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
     },
     {
@@ -58,13 +58,13 @@ const resultadosPartidos = [
             id: 102,
             nombre: "Gimnasia",
             goles: 27,
-            img: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg",
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
         teamB: {
             id: 104,
             nombre: "Casla",
             goles: 27,
-            img: "../../public/img/logos/escudocasla.svg",
+            img: "/img/logos/escudocasla.svg",
         },
     },
 ];
@@ -79,13 +79,13 @@ const resultadosPartidos2 = [
             id: 101,
             nombre: "Equipo A",
             goles: 22,
-            img: "/public/img/logos/EscudoGimnasiaHandballReconquista.svg",
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
         teamB: {
             id: 102,
             nombre: "Equipo B",
             goles: 18,
-            img: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg",
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
     },
     {
@@ -96,13 +96,13 @@ const resultadosPartidos2 = [
             id: 103,
             nombre: "Equipo C",
             goles: 25,
-            img: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg",
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
         teamB: {
             id: 104,
             nombre: "Equipo D",
             goles: 20,
-            img: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg",
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
     },
     {
@@ -113,13 +113,13 @@ const resultadosPartidos2 = [
             id: 101,
             nombre: "Equipo A",
             goles: 21,
-            img: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg",
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
         teamB: {
             id: 103,
             nombre: "Equipo C",
             goles: 23,
-            img: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg",
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
     },
     {
@@ -130,13 +130,13 @@ const resultadosPartidos2 = [
             id: 102,
             nombre: "Gimnasia",
             goles: 15,
-            img: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg",
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
         teamB: {
             id: 104,
             nombre: "Casla",
             goles: 20,
-            img: "../../public/img/logos/escudocasla.svg",
+            img: "/img/logos/escudocasla.svg",
         },
     },
 ];
@@ -152,7 +152,7 @@ const tablaPosiciones = [
         golesContra: 90,
         diferenciaGoles: 30,
         puntos: 12,
-        escudo: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg"
+        escudo: "/img/logos/EscudoGimnasiaHandballReconquista.svg"
     },
     {
         equipo: "Equipo B",
@@ -164,7 +164,7 @@ const tablaPosiciones = [
         golesContra: 95,
         diferenciaGoles: 15,
         puntos: 10,
-        escudo: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg"
+        escudo: "/img/logos/EscudoGimnasiaHandballReconquista.svg"
     },
     {
         equipo: "Equipo C",
@@ -176,7 +176,7 @@ const tablaPosiciones = [
         golesContra: 100,
         diferenciaGoles: 5,
         puntos: 9,
-        escudo: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg"
+        escudo: "/img/logos/EscudoGimnasiaHandballReconquista.svg"
     },
     {
         equipo: "Equipo D",
@@ -188,7 +188,7 @@ const tablaPosiciones = [
         golesContra: 105,
         diferenciaGoles: -5,
         puntos: 7,
-        escudo: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg"
+        escudo: "/img/logos/EscudoGimnasiaHandballReconquista.svg"
     },
     {
         equipo: "Equipo E",
@@ -200,7 +200,7 @@ const tablaPosiciones = [
         golesContra: 115,
         diferenciaGoles: -25,
         puntos: 3,
-        escudo: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg"
+        escudo: "/img/logos/EscudoGimnasiaHandballReconquista.svg"
     },
     {
         equipo: "Equipo F",
@@ -212,22 +212,22 @@ const tablaPosiciones = [
         golesContra: 115,
         diferenciaGoles: -30,
         puntos: 2,
-        escudo: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg"
+        escudo: "/img/logos/EscudoGimnasiaHandballReconquista.svg"
     }
 ]
 
 const listaSponsors = [
     {
-        img: "../../public/img/logos/logoapolo.svg"
+        img: "/img/logos/logoapolo.svg"
     },
     {
-        img: "../../public/img/logos/logointercel.svg"
+        img: "/img/logos/logointercel.svg"
     },
     {
-        img: "../../public/img/logos/logoapolo.svg"
+        img: "/img/logos/logoapolo.svg"
     },
     {
-        img: "../../public/img/logos/logoapolo.svg"
+        img: "/img/logos/logoapolo.svg"
     }
 ]
 
@@ -240,13 +240,13 @@ const partidosPendientesMasc = [
             id: 101,
             nombre: "Gimnasia",
             goles: 0,
-            img: "/public/img/logos/EscudoGimnasiaHandballReconquista.svg",
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
         teamB: {
             id: 102,
             nombre: "Atletico y Tiro",
             goles: 0,
-            img: "../../public/img/logos/escudotiro.svg",
+            img: "/img/logos/escudotiro.svg",
         },
     }
 ]
@@ -259,13 +259,13 @@ const partidosPendientesFem = [
             id: 101,
             nombre: "Adelante",
             goles: 0,
-            img: "/public/img/logos/escudoadelante.svg",
+            img: "/img/logos/escudoadelante.svg",
         },
         teamB: {
             id: 102,
             nombre: "Gimnasia",
             goles: 0,
-            img: "../../public/img/logos/EscudoGimnasiaHandballReconquista.svg",
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
     }
 ]

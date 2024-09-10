@@ -1,0 +1,14 @@
+.section-sponsor{
+    text-align: center;
+    padding: 20px;
+}
+.container-sponsor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    img{
+        width: 100px;
+    }
+}

@@ -1,0 +1,48 @@
+
+.section-ultimos-partidos{
+    text-align: center;
+    padding: 10px;
+}
+
+.container-lista{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-partido{
+    width: 100%;
+    padding: 10px;
+    background-color: #00a1e4ff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.288);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.partido-titulo{
+    font-size: 1rem;
+}
+
+.container-partido-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    gap: 10px;
+    padding: 10px;
+    img{
+        width: 80px;
+    }
+}
+
+.teamNombre{
+    font-size: 1rem;
+}

@@ -1,0 +1,19 @@
+.footer-container{
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgb(68, 68, 68);
+    padding: 20px;
+}
+
+.redes{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    a{
+        color: #00a1e4ff;
+        &:hover{
+            color: white;
+        }
+    }
+}

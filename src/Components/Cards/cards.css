@@ -1,0 +1,22 @@
+.card-container-partidos{
+    padding: 10px;
+}
+.card-titulos{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.card-body-partido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team{
+    text-align: center;
+}
+.teamImg{
+    img{
+        width: 70px;
+    }
+}

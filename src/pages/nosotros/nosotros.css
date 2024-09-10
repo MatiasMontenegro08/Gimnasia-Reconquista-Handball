@@ -1,0 +1,13 @@
+.main-nosotros{
+    padding: 20px;
+
+    h1, h2{
+        text-align: center;
+    }
+}
+
+.nosotros-img{
+    img{
+        width: 100%;
+    }
+}

@@ -12,7 +12,6 @@ const CardPartidos = ({partido}) => {
             </div>
             <div className='card-body-partido'>
                 <CardEquipo equipo={partido.teamA} />
-                <p className='vs'>VS</p>
                 <CardEquipo equipo={partido.teamB} />
             </div>
         </div>

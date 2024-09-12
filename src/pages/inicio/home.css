@@ -22,8 +22,8 @@
 }
 
 @media only screen and (min-width: 1281px) {
-    .main-home{
-        width: 50%;
+    .section-carruseles{
+        width: 80%;
         margin: auto;
     }
 }

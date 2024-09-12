@@ -8,6 +8,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+main{
+  min-height: 100vh;
+}
+
 h1 {
   font-family: "Roboto", system-ui;
   font-weight: 900;

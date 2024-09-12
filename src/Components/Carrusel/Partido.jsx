@@ -9,12 +9,12 @@ const Partido = ({partido}) => {
                 <div className='team'>
                     <img src={partido.teamA.img} alt={partido.teamA.nombre} />
                     <p className='teamNombre'>{partido.teamA.nombre}</p>
-                    {partido.teamA.goles != 0 && <p>{partido.teamA.goles}</p>}
+                    {partido.teamA.goles != 0 ? <p>{partido.teamA.goles}</p> : <p>-</p>}
                 </div>
                 <div className='team'>
                     <img src={partido.teamB.img} alt={partido.teamB.nombre} />
                     <p className='teamNombre'>{partido.teamB.nombre}</p>
-                    {partido.teamB.goles != 0 && <p>{partido.teamB.goles}</p>}
+                    {partido.teamB.goles != 0 ? <p>{partido.teamB.goles}</p> : <p>-</p>}
                 </div>
             </div>
         </div>

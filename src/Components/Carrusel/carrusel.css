@@ -47,3 +47,10 @@
 .teamNombre{
     font-size: 1rem;
 }
+
+
+@media only screen and (min-width: 767px){
+    .section-ultimos-partidos{
+        width: 50%;
+    }
+}

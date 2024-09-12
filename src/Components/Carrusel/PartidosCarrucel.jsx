@@ -6,17 +6,17 @@ import './carrusel.css';
 const PartidosCarrucel = ({partidoMasculino, partidoFemenino, titulo}) => {
 
     return (
-        <section className='section-ultimos-partidos'>
+        <div className='section-ultimos-partidos'>
             <h2>{titulo}</h2>
-            <Carousel>
-                <Carousel.Item>
-                    <ListaPartidos listaTorneo={partidoMasculino} categoria={"Primera Masculino"} />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <ListaPartidos listaTorneo={partidoFemenino} categoria={"Primera femenino"} />
-                </Carousel.Item>
-            </Carousel>
-        </section>
+                <Carousel >
+                    <Carousel.Item>
+                        <ListaPartidos listaTorneo={partidoMasculino} categoria={"Primera Masculino"} />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <ListaPartidos listaTorneo={partidoFemenino} categoria={"Primera femenino"} />
+                    </Carousel.Item>
+                </Carousel>
+        </div>
     )
 }
 

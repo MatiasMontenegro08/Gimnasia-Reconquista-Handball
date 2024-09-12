@@ -9,11 +9,15 @@ const Torneo = () => {
     return (
         <main className='main-torneo'>
             <h1>Torneos</h1>
-            <ListaTorneo listaTorneo={resultadosPartidos} categoria={"Primera masculino"}/>
-            <ListaTorneo listaTorneo={resultadosPartidos2} categoria={"Primera femenino"}/>
+            <section className='section-lista-partidos'>
+                <ListaTorneo listaTorneo={resultadosPartidos} categoria={"Primera masculino"}/>
+                <ListaTorneo listaTorneo={resultadosPartidos2} categoria={"Primera femenino"}/>
+            </section>
             <h2>Tablas de posiciones</h2>
-            <TablaPosiciones tablaPosiciones={tablaPosiciones} categoria={"Masculino"}/>
-            <TablaPosiciones tablaPosiciones={tablaPosiciones} categoria={"Femenino"}/>
+            <section className='section-tablas'>
+                <TablaPosiciones tablaPosiciones={tablaPosiciones} categoria={"Masculino"}/>
+                <TablaPosiciones tablaPosiciones={tablaPosiciones} categoria={"Femenino"}/>
+            </section>
         </main>
     )
 }

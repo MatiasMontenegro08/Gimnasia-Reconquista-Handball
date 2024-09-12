@@ -8,13 +8,17 @@ const Categoria = () => {
     return (
         <main className='main-container'>
             <h1>Categorías</h1>
-            {
-                categorias.map((categoria) => (
-                    <CardCategoria categoria={categoria} />
-                ))
-            }
-            <h2>Lugares de entrenamiento</h2>
-            <PlayonesEntrenamiento />
+            <section className='section-categorias'>
+                {
+                    categorias.map((categoria) => (
+                        <CardCategoria categoria={categoria} />
+                    ))
+                }
+            </section>
+            <section className='section-direcciones'>
+                <h2>Lugares de entrenamiento</h2>
+                <PlayonesEntrenamiento />
+            </section>
         </main>
     )
 }

@@ -5,6 +5,13 @@
     flex-direction: column;
     gap: 20px;
 }
+.section-lista-partidos, .section-tablas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 
 .container-partidos{
     display: flex;

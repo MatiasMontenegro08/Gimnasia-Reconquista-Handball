@@ -8,8 +8,10 @@ const Home = () => {
     return (
         <main className='main-home'>
             <h1>Gimnasia Handball Reconquista</h1>
-            <PartidosCarrucel partidoMasculino={resultadosPartidos} partidoFemenino={resultadosPartidos2} titulo={"Últimos partidos"}/>
-            <PartidosCarrucel partidoMasculino={partidosPendientesMasc} partidoFemenino={partidosPendientesFem} titulo={"Siguiente fecha"}/>
+            <section className='section-carruseles'>
+                <PartidosCarrucel partidoMasculino={resultadosPartidos} partidoFemenino={resultadosPartidos2} titulo={"Últimos partidos"}/>
+                <PartidosCarrucel partidoMasculino={partidosPendientesMasc} partidoFemenino={partidosPendientesFem} titulo={"Siguiente fecha"}/>
+            </section>
             <TablaContainer />
             <ContainerSponsor />
         </main>

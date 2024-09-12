@@ -5,6 +5,7 @@ import RedesSociales from './RedesSociales'
 const Footer = () => {
     return (
         <footer className='footer-container'>
+            <span>Contactanos!</span>
             <RedesSociales />
         </footer>
     )

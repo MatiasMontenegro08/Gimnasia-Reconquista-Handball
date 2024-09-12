@@ -2,7 +2,11 @@
     text-align: center;
     font-size: 2rem;
     background-color: rgb(68, 68, 68);
-    padding: 20px;
+    padding: 10px;
+    span{
+        font-size: 1.5rem;
+        color: #00a1e4ff;
+    }
 }
 
 .redes{

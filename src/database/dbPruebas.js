@@ -2,7 +2,7 @@ const resultadosPartidos = [
     {
         id: 1,
         numerodepartido: "Fecha 1",
-        fecha: "2024-09-08",
+        fecha: "08-09-2024",
         teamA: {
             id: 101,
             nombre: "Gimnasia",
@@ -19,7 +19,7 @@ const resultadosPartidos = [
     {
         id: 2,
         numerodepartido: "Fecha 2",
-        fecha: "2024-09-28",
+        fecha: "28-09-2024",
         teamA: {
             id: 101,
             nombre: "Gimnasia",
@@ -32,7 +32,41 @@ const resultadosPartidos = [
             goles: 0,
             img: "/img/logos/escudobelgrano.svg",
         },
-    }
+    },
+    {
+        id: 3,
+        numerodepartido: "Fecha 3",
+        fecha: "13-10-2024",
+        teamA: {
+            id: 101,
+            nombre: "Adelante",
+            goles: 0,
+            img: "/img/logos/escudoadelante.svg",
+        },
+        teamB: {
+            id: 102,
+            nombre: "Gimnasia",
+            goles: 0,
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
+        },
+    },
+    {
+        id: 4,
+        numerodepartido: "Fecha 4",
+        fecha: "14-10-2024",
+        teamA: {
+            id: 101,
+            nombre: "Gimnasia",
+            goles: 0,
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
+        },
+        teamB: {
+            id: 102,
+            nombre: "Pumas",
+            goles: 0,
+            img: "/img/logos/escudopumas.svg",
+        },
+    },
 ];
 
 
@@ -40,7 +74,7 @@ const resultadosPartidos2 = [
     {
         id: 1,
         numerodepartido: "Fecha 1",
-        fecha: "2024-09-07",
+        fecha: "07-09-2024",
         teamA: {
             id: 101,
             nombre: "Gimnasia",
@@ -57,7 +91,7 @@ const resultadosPartidos2 = [
     {
         id: 2,
         numerodepartido: "Fecha 2",
-        fecha: "2024-09-28",
+        fecha: "22-09-2024",
         teamA: {
             id: 101,
             nombre: "Pumas",
@@ -69,6 +103,40 @@ const resultadosPartidos2 = [
             nombre: "Gimnasia",
             goles: 0,
             img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
+        },
+    },
+    {
+        id: 3,
+        numerodepartido: "Fecha 3",
+        fecha: "29-09-2024",
+        teamA: {
+            id: 101,
+            nombre: "Atl. y Tiro",
+            goles: 0,
+            img: "/img/logos/escudotiro.svg",
+        },
+        teamB: {
+            id: 102,
+            nombre: "Gimnasia",
+            goles: 0,
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
+        },
+    },
+    {
+        id: 4,
+        numerodepartido: "Fecha 4",
+        fecha: "10-05-2024",
+        teamA: {
+            id: 105,
+            nombre: "Gimnasia",
+            goles: 0,
+            img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
+        },
+        teamB: {
+            id: 106,
+            nombre: "Belgrano",
+            goles: 0,
+            img: "/img/logos/escudobelgrano.svg",
         },
     }
 ];
@@ -210,7 +278,7 @@ const partidosPendientesMasc = [
     {
         id: 1,
         numerodepartido: "Fecha 2",
-        fecha: "2024-09-28",
+        fecha: "28-09-2024",
         teamA: {
             id: 101,
             nombre: "Gimnasia",
@@ -223,13 +291,13 @@ const partidosPendientesMasc = [
             goles: 0,
             img: "/img/logos/escudobelgrano.svg",
         },
-    }
+    },
 ]
 const partidosPendientesFem = [
     {
         id: 1,
         numerodepartido: "Fecha 2",
-        fecha: "2024-09-28",
+        fecha: "22-09-2024",
         teamA: {
             id: 101,
             nombre: "Pumas",
@@ -242,7 +310,7 @@ const partidosPendientesFem = [
             goles: 0,
             img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
-    }
+    },
 ]
 
 const categorias = [

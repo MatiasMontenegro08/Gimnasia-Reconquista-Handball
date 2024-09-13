@@ -1,0 +1,96 @@
+.tabla-container-torneo {
+    width: 100%;
+    margin: auto;
+    background-color: #d6e9fab7;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    /* Para habilitar el scroll horizontal si la tabla es demasiado ancha */
+}
+
+.tabla-posiciones-torneo {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    min-width: 700px;
+    /* Para asegurar que las columnas no se colapsen demasiado en pantallas pequeñas */
+}
+
+.tabla-posiciones-torneo thead {
+    background-color: #00bfff;
+    color: white;
+}
+
+.tabla-posiciones-torneo th,
+.tabla-posiciones-torneo td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.icono-equipo {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.tabla-posiciones-torneo tbody tr:nth-child(odd) {
+    background-color: #e6f7ff;
+}
+
+.tabla-posiciones-torneo tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .tabla-container-torneo {
+        padding: 10px;
+    }
+
+    .tabla-posiciones-torneo {
+        font-size: 0.9rem;
+        /* Reducimos el tamaño de la fuente */
+    }
+
+    .tabla-posiciones-torneo th,
+    .tabla-posiciones-torneo td {
+        padding: 8px;
+    }
+
+    .icono-equipo {
+        width: 16px;
+        height: 16px;
+        margin-right: 3px;
+    }
+}
+
+/* Media query para pantallas muy pequeñas (como móviles) */
+@media (max-width: 480px) {
+
+    .tabla-posiciones-torneo th,
+    .tabla-posiciones-torneo td {
+        font-size: 0.8rem;
+        /* Reducción adicional de la fuente */
+        padding: 5px;
+    }
+
+    .icono-equipo {
+        width: 14px;
+        height: 14px;
+    }
+
+    /* En pantallas muy pequeñas, mostramos solo las columnas más relevantes */
+    .tabla-posiciones-torneo th:nth-child(3),
+    .tabla-posiciones-torneo th:nth-child(4),
+    .tabla-posiciones-torneo th:nth-child(5),
+    .tabla-posiciones-torneo th:nth-child(6),
+    .tabla-posiciones-torneo th:nth-child(7),
+    .tabla-posiciones-torneo td:nth-child(3),
+    .tabla-posiciones-torneo td:nth-child(4),
+    .tabla-posiciones-torneo td:nth-child(5),
+    .tabla-posiciones-torneo td:nth-child(6),
+    .tabla-posiciones-torneo td:nth-child(7) {
+        display: none;
+        /* Ocultamos algunas columnas */
+    }
+}

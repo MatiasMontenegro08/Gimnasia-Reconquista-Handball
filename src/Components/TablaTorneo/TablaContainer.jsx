@@ -1,6 +1,6 @@
 import React from 'react'
 import TablaPosiciones from './TablaPosiciones'
-import { tablaPosiciones } from '../../database/dbPruebas.js';
+import { tablaPosicionesMasculino, tablaPosicionesFemenino } from '../../database/dbPruebas.js';
 import './tablatorneo.css'
 
 const TablaContainer = () => {
@@ -8,8 +8,8 @@ const TablaContainer = () => {
         <section className='section-posiciones'>
             <h2>Tabla de la liga</h2>
             <div className='container-tablaposiciones'>
-                <TablaPosiciones tablaPosiciones={tablaPosiciones} categoria={"Masculino"}/>
-                <TablaPosiciones tablaPosiciones={tablaPosiciones} categoria={"Femenino"}/>
+                <TablaPosiciones tablaPosiciones={tablaPosicionesMasculino} categoria={"Masculino"}/>
+                <TablaPosiciones tablaPosiciones={tablaPosicionesFemenino} categoria={"Femenino"}/>
             </div>
         </section>
     )

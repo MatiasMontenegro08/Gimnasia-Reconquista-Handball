@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CardTablaPosiciones = ({puesto}) => {
+const CardTablaPosiciones = ({ puesto }) => {
     return (
         <div className='card-posicion'>
             <img src={puesto.escudo} alt="" />
@@ -9,8 +9,8 @@ const CardTablaPosiciones = ({puesto}) => {
             <p>{puesto.ganados}</p>
             <p>{puesto.perdidos}</p>
             <p>{puesto.empatados}</p>
-            <p>{puesto.golesFavor}</p>
-            <p>{puesto.golesContra}</p>
+            {/* <p>{puesto.golesFavor}</p>
+                <p>{puesto.golesContra}</p> */}
             <p>{puesto.diferenciaGoles}</p>
             <p>{puesto.puntos}</p>
         </div>

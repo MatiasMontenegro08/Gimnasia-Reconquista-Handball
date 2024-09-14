@@ -267,10 +267,12 @@ const tablaPosicionesMasculino = [
 ]
 const listaSponsors = [
     {
-        img: "/img/logos/logoapolo.svg"
+        img: "/img/logos/logoapolo.svg",
+        instagram: "https://www.instagram.com/apolopiscinas/?hl=es-la"
     },
     {
-        img: "/img/logos/logosublimarte.svg"
+        img: "/img/logos/logosublimarte.svg",
+        instagram: "https://www.instagram.com/sublimarte.ms/?hl=es-la"
     }
 ]
 

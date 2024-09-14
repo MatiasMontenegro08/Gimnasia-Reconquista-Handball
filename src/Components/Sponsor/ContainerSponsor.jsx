@@ -10,7 +10,7 @@ const ContainerSponsor = () => {
             <div className='container-sponsor'>
                 {
                     listaSponsors.map((sponsor) => (
-                        <div className='sponsor'> <Link to="#" target='_blank'><img src={sponsor.img} alt="logosponsor" /></Link></div>
+                        <div className='sponsor'> <Link to={sponsor.instagram} target='_blank'><img src={sponsor.img} alt="logosponsor" /></Link></div>
                     ))
                 }
             </div>

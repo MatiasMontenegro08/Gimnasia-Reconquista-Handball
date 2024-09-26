@@ -4,7 +4,7 @@ import Partido from './Partido'
 const ListaPartidos = ({ listaTorneo, categoria }) => {
 
     const ultimoPartido = listaTorneo.reduce((ultimo, partidoActual) => {
-        return new Date(partidoActual.fecha) < new Date(ultimo.fecha) ? partidoActual : ultimo;
+        return new Date(partidoActual.fecha) > new Date(ultimo.fecha) && new Date(partidoActual.fecha) < new Date() ? partidoActual : ultimo;
     }, listaTorneo[0]);
 
     return (

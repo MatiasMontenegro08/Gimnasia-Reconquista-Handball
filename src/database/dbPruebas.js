@@ -19,7 +19,7 @@ const resultadosPartidos = [
     {
         id: 2,
         numerodepartido: "Fecha 2",
-        fecha: "Sep-28-2024",
+        fecha: "Oct-05-2024",
         teamA: {
             id: 101,
             nombre: "Gimnasia",
@@ -112,13 +112,13 @@ const resultadosPartidos2 = [
         teamA: {
             id: 101,
             nombre: "Atl. y Tiro",
-            goles: 0,
+            goles: 9,
             img: "/img/logos/escudotiro.svg",
         },
         teamB: {
             id: 102,
             nombre: "Gimnasia",
-            goles: 0,
+            goles: 25,
             img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
     },
@@ -155,15 +155,27 @@ const tablaPosicionesFemenino = [
         escudo: "/img/logos/escudopumas.svg"
     },
     {
-        equipo: "Atl. y Tiro",
-        partidosJugados: 2,
+        equipo: "Gimnasia",
+        partidosJugados: 3,
         ganados: 1,
-        perdidos: 1,
+        perdidos: 2,
+        empatados: 0,
+        golesFavor: 29,
+        golesContra: 44,
+        diferenciaGoles: -30,
+        puntos: 5,
+        escudo: "/img/logos/EscudoGimnasiaHandballReconquista.svg"
+    },
+    {
+        equipo: "Atl. y Tiro",
+        partidosJugados: 3,
+        ganados: 1,
+        perdidos: 2,
         empatados: 0,
         golesFavor: 100,
         golesContra: 105,
-        diferenciaGoles: -43,
-        puntos: 4,
+        diferenciaGoles: -59,
+        puntos: 5,
         escudo: "/img/logos/escudotiro.svg"
     },
     {
@@ -177,18 +189,6 @@ const tablaPosicionesFemenino = [
         diferenciaGoles: 21,
         puntos: 3,
         escudo: "/img/logos/escudoadelante.svg"
-    },
-    {
-        equipo: "Gimnasia",
-        partidosJugados: 2,
-        ganados: 0,
-        perdidos: 2,
-        empatados: 0,
-        golesFavor: 14,
-        golesContra: 35,
-        diferenciaGoles: -46,
-        puntos: 2,
-        escudo: "/img/logos/EscudoGimnasiaHandballReconquista.svg"
     },
     {
         equipo: "Belgrano",
@@ -206,15 +206,27 @@ const tablaPosicionesFemenino = [
 const tablaPosicionesMasculino = [
     {
         equipo: "Atl. y Tiro",
+        partidosJugados: 3,
+        ganados: 2,
+        perdidos: 1,
+        empatados: 0,
+        golesFavor: 29,
+        golesContra: 25,
+        diferenciaGoles: -14,
+        puntos: 7,
+        escudo: "/img/logos/escudotiro.svg"
+    },
+    {
+        equipo: "Adelante",
         partidosJugados: 2,
         ganados: 2,
         perdidos: 0,
         empatados: 0,
-        golesFavor: 29,
-        golesContra: 25,
-        diferenciaGoles: 5,
+        golesFavor: 0,
+        golesContra: 0,
+        diferenciaGoles: 26,
         puntos: 6,
-        escudo: "/img/logos/escudotiro.svg"
+        escudo: "/img/logos/escudoadelante.svg"
     },
     {
         equipo: "Pumas",
@@ -227,18 +239,6 @@ const tablaPosicionesMasculino = [
         diferenciaGoles: 10,
         puntos: 4,
         escudo: "/img/logos/escudopumas.svg"
-    },
-    {
-        equipo: "Adelante",
-        partidosJugados: 1,
-        ganados: 1,
-        perdidos: 0,
-        empatados: 0,
-        golesFavor: 0,
-        golesContra: 0,
-        diferenciaGoles: 7,
-        puntos: 3,
-        escudo: "/img/logos/escudoadelante.svg"
     },
     {
         equipo: "Belgrano",
@@ -280,7 +280,7 @@ const partidosPendientesMasc = [
     {
         id: 1,
         numerodepartido: "Fecha 2",
-        fecha: "Sep-28-2024",
+        fecha: "Oct-05-2024",
         teamA: {
             id: 101,
             nombre: "Gimnasia",
@@ -298,21 +298,21 @@ const partidosPendientesMasc = [
 const partidosPendientesFem = [
     {
         id: 1,
-        numerodepartido: "Fecha 3",
-        fecha: "Sep-29-2024",
+        numerodepartido: "Fecha 4",
+        fecha: "Oct-06-2024",
         teamA: {
-            id: 101,
-            nombre: "Atl. y Tiro",
-            goles: 0,
-            img: "/img/logos/escudotiro.svg",
-        },
-        teamB: {
-            id: 102,
+            id: 105,
             nombre: "Gimnasia",
             goles: 0,
             img: "/img/logos/EscudoGimnasiaHandballReconquista.svg",
         },
-    },
+        teamB: {
+            id: 106,
+            nombre: "Belgrano",
+            goles: 0,
+            img: "/img/logos/escudobelgrano.svg",
+        },
+    }
 ]
 
 const categorias = [
